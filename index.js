@@ -7,7 +7,7 @@ const password = process.env.password;
 
 
 app.use(cors({
-    origin : "https://delicate-frangollo-0e3256.netlify.app"
+    origin : "https://manivasagamportfolio.netlify.app"
 }))
 
 app.use(express.json());
