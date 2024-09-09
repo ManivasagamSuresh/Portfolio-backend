@@ -6,13 +6,13 @@ const nodemailer = require("nodemailer");
 const password = process.env.password;
 
 
-// app.use(cors({
-//     origin : "https://manivasagamportfolio.netlify.app"
-// }))
-
 app.use(cors({
-    origin : "http://localhost:3000"
+    origin : "https://manivasagamportfolio.netlify.app"
 }))
+
+// app.use(cors({
+//     origin : "http://localhost:3000"
+// }))
 
 app.use(express.json());
 
